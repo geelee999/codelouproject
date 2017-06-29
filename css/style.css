@@ -10,9 +10,11 @@ body,
 
 .jumbotron {background-color: #ADD8E6;
             margin-bottom: 0;
-.nomobile {
-            display:none;
-        }
+
+}
+
+@media (max-width: 1026px) {
+    #jumbotron { display: none; }
 }
 
 .navbar {
