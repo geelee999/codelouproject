@@ -8,7 +8,7 @@ $(document).ready(function() {
     $(this).addClass("selected");
 
     // the AJAX part
-    var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+    var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
     var plants = $(this).text();
     var flickrOptions = {
       tags: plants,
