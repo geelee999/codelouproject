@@ -1,9 +1,10 @@
+// js file for flickr feed
+
 $(document).ready(function() {
 
 
  $('button').click(function () {
     // highlight the button
-    // not AJAX, just cool looking
     $("button").removeClass("selected");
     $(this).addClass("selected");
 
@@ -11,7 +12,7 @@ $(document).ready(function() {
     var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
     var plants = $(this).text();
     var flickrOptions = {
-      tags: plants,
+      tags: plants, 
       format: "json"
     };
     function displayPhotos(data) {

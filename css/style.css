@@ -1,19 +1,23 @@
+/* css style for html pages */
 
 html,
 body,
 
 .view {
     height: 100%;
+    background-color: lightblue;
+    font-weight: bold;
+    color: black;
 }
 
-
+/* jumbotron setings */
 
 .jumbotron {background-color: #ADD8E6;
             margin-bottom: 0;
 
 }
 
-
+/* navbar settings */
 
 .navbar {
     background-color: #992020;
@@ -23,12 +27,9 @@ body,
 
 }
 
-
-
+/* footer settings */
 
  footer {
    background-color: #4682b4;
       padding: 25px;
     }
-
-

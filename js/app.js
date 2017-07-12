@@ -1,4 +1,4 @@
-//this will be a js file
+//this is a js file used for email form
 
 
 $('#email-field').keyup(function(){
