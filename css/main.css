@@ -1,6 +1,15 @@
 
 /* css file for the flickr photo feed */
 
+.navbar {
+    background-color: #992020;
+    border-color: #E7E7E7;
+    margin-bottom: 50px;
+    border-radius: 0;
+
+}
+
+
 @charset "UTF-8";
 .clear {
   clear: both;
@@ -2068,3 +2077,7 @@ footer p {
 input[type=search] {
   font-size: 2em;
 }
+footer {
+   background-color: #4682b4;
+      padding: 25px;
+    }
