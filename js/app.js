@@ -25,10 +25,14 @@ $('#email-field').keyup(function () {
 });
 
 $('#email-submit').click(function (e) {
+  var $this = $(this);
+  var $form = $this.parents('form');
+
   e.preventDefault();
   alert('Your email was submited look for great deals in your email');
+  
+  $form.find(':input').val('');
 });
-
 
 
 function validateForm(emailAddress) {
