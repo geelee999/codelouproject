@@ -21,7 +21,7 @@ $('#email-submit').click(function(e){
   alert('Your email was submited look for great deals in your email');
 });
 
-
+$('#my-handling-form-page').trigger("reset");
 
 
 //Checks if email address is valid.  
@@ -30,5 +30,5 @@ function isValidEmailAddress(emailAddress) {
     return pattern.test(emailAddress);
 };
 
-
+ 
 
